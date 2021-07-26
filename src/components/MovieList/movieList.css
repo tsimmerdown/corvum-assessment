@@ -1,0 +1,21 @@
+.listCont {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5vh;
+}
+
+@media only screen and (max-width: 1200px) {
+  .listCont {
+    overflow: auto;
+    height: 700px;
+  }
+}
+
+@media only screen and (max-width: 770px) {
+  .listCont {
+    overflow: unset;
+  }
+}

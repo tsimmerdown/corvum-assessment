@@ -1,0 +1,82 @@
+.cont {
+  height: 30vh;
+  background-color: white;
+  width: 10vw;
+  margin: 10px;
+  border-radius: 15px;
+}
+
+.movieImg {
+  background-position: center;
+  height: 100%;
+  border-radius: 15px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.noMovieImg {
+  background-position: center;
+  height: 100%;
+  border-radius: 15px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(./not-found.jpg);
+}
+
+.movie-hover {
+  position: relative;
+  bottom: 31vh;
+  right: 1vh;
+  height: 30vh;
+  background-color: rgba(201, 201, 201, 0.9);
+  box-shadow: 1px 1px 3px rgba(255, 255, 255, 0.7),
+    -1px -1px 3px rgba(255, 255, 255, 0.7);
+  width: 10vw;
+  margin: 10px;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+.movie-hover button {
+  position: absolute;
+  align-self: center;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  bottom: 3vh;
+  border: 0;
+  border-radius: 10px;
+  padding: 1vh 1vw 1vh 1vw;
+  outline: none;
+}
+
+.movie-text {
+  margin-top: 5vh;
+}
+
+@media only screen and (max-width: 1200px) {
+  .cont {
+    width: 15vw;
+  }
+  .movie-hover {
+    width: 15vw;
+  }
+}
+
+@media only screen and (max-width: 770px) {
+  .cont {
+    width: 40vw;
+  }
+  .movie-hover {
+    width: 40vw;
+  }
+}
+
+@media only screen and (max-width: 570px) {
+  .cont {
+    width: 100%;
+  }
+  .movie-hover {
+    width: 100%;
+  }
+}

@@ -1,0 +1,15 @@
+.App {
+  text-align: center;
+  height: 100vh;
+  background: radial-gradient(
+      farthest-side at 80% 1%,
+      rgb(0, 152, 202),
+      transparent
+    ),
+    radial-gradient(farthest-side at 1% 90%, rgb(0, 152, 202), transparent),
+    linear-gradient(135deg, rgb(176, 224, 230), rgb(176, 224, 230));
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Roboto", sans-serif;
+}

@@ -1,0 +1,38 @@
+.nomination-cont {
+  height: 5vh;
+  font-size: 13px;
+  background-color: rgba(255, 255, 255, 0.4);
+  margin: 1vh 1vw 1vh 1vw;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 700;
+}
+
+.close-cont {
+  position: absolute;
+  background-color: rgba(255, 0, 0, 0.555);
+  background-image: url(./remove.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  backdrop-filter: blur(8px);
+  width: 14vw;
+  height: 5vh;
+  margin: 10px;
+  border-radius: 8px;
+  box-shadow: 1px 1px 3px rgba(255, 255, 255, 0.7),
+    -1px -1px 3px rgba(255, 255, 255, 0.7);
+  display: flex;
+  flex-direction: column;
+}
+
+@media only screen and (max-width: 770px) {
+  .nomination-cont {
+    height: 3vh;
+  }
+  .close-cont {
+    height: 3vh;
+    width: 100%;
+  }
+}
